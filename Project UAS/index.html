@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <!-- menu top-->
+        <nav class="navigation">
+            <ul class="nav">
+                <li>
+                    <a>
+                        <i class="fa fa-home"></i>
+                    </a>
+                </li>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="mahasiswa.html">Mahasiswa</a></li>
+                <li style="float:right;"><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <div class="flex-conatiner">
+            <div class="flex-item flex-red">
+                <i class="fa fa-user"></i>
+                <h2>100</h2>
+                <p>Dosen</p>
+            </div>
+            <div class="flex-item flex-black">
+                <i class="fa fa-award"></i>
+                <h2>100</h2>
+                <p>Awards</p>
+            </div>
+            <div class="flex-item flex-darkred">
+                <i class="fa fa-graduation-cap"></i>
+                <h2>1000</h2>
+                <p>Alumni</p>
+            </div>
+            <div class="flex-item  flex-red-late">
+                <i class="fa fa-handshake"></i>
+                <h2>50</h2>
+                <p>Mitra</p>
+            </div>
+
+            <div>
+                <button class="button" style="float: right">
+                    <a href="tambahdata.html">Tambah Data</a>
+                </button>
+            </div>
+
+            <h1 style="margin-top: 10px;">Tabel Mahasiswa</h1>
+
+            <div style="overflow-x: auto; width: 100%;">
+                <table id="mahasiswa">
+                    <tr>
+                        <th>No</th>
+                        <th>Foto</th>
+                        <th>NIM</th>
+                        <th>Nama</th>
+                        <th>Nilai</th>
+                        <th>Grade</th>
+                        <th>Aksi</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><img src="img/Profile 1.png" width="50"></td>
+                        <td>1904848484</td>
+                        <td>Andrew Tate</td>
+                        <td>90</td>
+                        <td>A</td>
+                        <td>
+                            <button class="button">
+                                <a href="tambahdata.html">Ubah</a>
+                            </button>
+                            <button class="button button2">
+                                <a href="tambahdata.html">Hapus</a>
+                            </button> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><img src="img/Profile 2.png" width="50"></td>
+                        <td>1904848485</td>
+                        <td>Meg Grifin</td>
+                        <td>75</td>
+                        <td>B</td>
+                        <td>
+                            <button class="button">
+                                <a href="tambahdata.html">Ubah</a>
+                            </button>
+                            <button class="button button2">
+                                <a href="tambahdata.html">Hapus</a>
+                            </button> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><img src="img/Profile 3.png" width="50"></td>
+                        <td>1904848486</td>
+                        <td>Jacob Black</td>
+                        <td>100</td>
+                        <td>A+</td>
+                        <td>
+                            <button class="button">
+                                <a href="tambahdata.html">Ubah</a>
+                            </button>
+                            <button class="button button2">
+                                <a href="tambahdata.html">Hapus</a>
+                            </button> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><img src="img/Profile 4.png" width="50"></td>
+                        <td>1904848487</td>
+                        <td>Elisabeth Swan</td>
+                        <td>90</td>
+                        <td>A</td>
+                        <td>
+                            <button class="button">
+                                <a href="tambahdata.html">Ubah</a>
+                            </button>
+                            <button class="button button2">
+                                <a href="tambahdata.html">Hapus</a>
+                            </button> 
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    </section>
+</body>
+
+</html>
